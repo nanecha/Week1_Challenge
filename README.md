@@ -1,5 +1,4 @@
 ##Financial Analysis Data Suite
-A comprehensive Python-based data analysis project that combines descriptive and statistical analysis of financial datasets — including news headlines and historical stock prices — to uncover valuable insights using Jupyter Notebooks.
 
 📁 Overview
 This project focuses on two major areas of financial data analysis:
@@ -56,7 +55,8 @@ bash Copy Edit
 
 Requires system-specific setup
 Refer to the TA-Lib installation guide for your OS
-pip install TA-Lib 📂 Dataset Descriptions
+pip install TA-Lib 
+📂 Dataset Descriptions
 
 News Headlines Dataset Location: ../data/raw/raw_analyst_ratings.csv Columns:
 Unnamed: 0: Index
@@ -93,30 +93,16 @@ Time series trends and stock comparisons
 ▶️ Usage bash Copy Edit
 
 1. Clone the repository
-git clone https://github.com/your-username/financial-analysis-suite.git cd financial-analysis-suite
+git clone https://github.com/your-username/
 
 2. Install dependencies
 pip install -r requirements.txt
 
 3. Launch Jupyter Lab or Notebook
-jupyter lab 🧪 Customization Want to analyze different stocks or news datasets?
+s
 
-Change stock tickers in the loader section
 
-Replace the news CSV with another file (same structure)
 
-The pipeline adapts automatically to:
 
-Generate new statistics
 
-Perform updated sentiment analysis
 
-Render new visualizations
-
-🤝 Contributing Pull requests are welcome! For major changes, please open an issue first to discuss proposed modifications.
-
-📜 License This project is licensed under the MIT License. Feel free to use, modify, and distribute with proper attribution.
-
-📬 Contact For questions, suggestions, or collaboration inquiries:
-
-Email: gworku3654@gmail.com Or open an issue in the repository.
