@@ -1,0 +1,11 @@
+{
+  "python.pythonPath": "path/to/python",  // Specifies Python interpreter
+  "python.linting.enabled": true,          // Enables linting
+  "python.linting.pylintEnabled": false,   // Disables Pylint (if using Flake8)
+  "python.linting.flake8Enabled": true,    // Enables Flake8
+  "python.formatting.provider": "black",   // Uses Black for auto-formatting
+  "python.languageServer": "Pylance",      // Default language server
+  "python.analysis.typeCheckingMode": "basic" , // Static type checking
+  "editor.renderWhitespace": "all",  // Visualize whitespace
+  "files.trimTrailingWhitespace": true  // Auto-trim on save
+}
